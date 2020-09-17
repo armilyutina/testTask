@@ -1,0 +1,9 @@
+.field {
+  font-size: 15px;
+  margin: 0 10% 0 15%;
+  display: grid;
+  grid-template-columns: repeat(10, 170px);
+  grid-template-rows: repeat(1, auto);
+  grid-gap: 20px 30px;
+  grid-auto-flow: dense;
+}
